@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotation Generator</title>
+    <link rel="stylesheet" href="assets/css/quote.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <script src="assets/js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="assets/js/extendedQuotes.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <h2>Generate Your Daily Quote (Sentence Builder)</h2>
+    <div id="quoteContainer">
+        <ul>
+            <li id="text" style="visibility: hidden"></li>
+            <li id="text2" style="visibility: hidden"></li>
+            <li id="text3" style="visibility: hidden"></li>
+            <li id="text4" style="visibility: hidden"></li>
+            <li id="text5" style="visibility: hidden"></li>
+        </ul>
+    </div><!--end quoteContainer-->
+    <br>
+    <br>
+    <br>
+    <div id="buttonContainer">
+        <input type="radio" name="group" id="r1" checked>Sentence Builder
+        <input type="radio" name="group" id="r2">Sentence Builder 2<br>
+        <label for="numberField">Number of quotes:</label><input id="numberField" type="number" min="1" max="5" value="1"><br>
+        <a href="javascript:void(0);" id="quoteButton2" onclick="createQuotes();">Quote Me</a>
+
+    </div><!--end buttonContainer-->
+
+</div><!--end container-->
+</body>
+</html>
