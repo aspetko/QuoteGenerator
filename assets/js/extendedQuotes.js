@@ -1,7 +1,6 @@
 /**
  * Created by aspetko on 20.11.17.
  */
-
 var beginning = [
     "Marilyn Monroe ",
     "Abraham Lincoln ",
